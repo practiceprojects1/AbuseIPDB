@@ -4,7 +4,6 @@
 import requests
 import json
 import pandas as pd
-import csv
 
 # Defining the api-endpoint
 url = 'https://api.abuseipdb.com/api/v2/blacklist'

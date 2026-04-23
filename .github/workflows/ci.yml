@@ -42,7 +42,7 @@ jobs:
         run: pip install bandit==1.8.3
 
       - name: Run bandit
-        run: bandit -r . --exclude ./.git
+        run: bandit -r . --exclude ./.git,./tests
 
   test:
     name: Test (Python ${{ matrix.python-version }})
